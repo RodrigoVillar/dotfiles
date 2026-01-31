@@ -36,6 +36,8 @@
     # '')
     pkgs.starship
     pkgs.neovim
+    pkgs.fd
+    pkgs.ripgrep
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
