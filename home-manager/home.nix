@@ -35,6 +35,7 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.starship
+    pkgs.jj-starship
     pkgs.neovim
     pkgs.fd
     pkgs.ripgrep
