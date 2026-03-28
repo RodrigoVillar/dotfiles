@@ -39,6 +39,7 @@
     pkgs.neovim
     pkgs.fd
     pkgs.ripgrep
+    pkgs.carapace
   ];
 
   home.file = {
