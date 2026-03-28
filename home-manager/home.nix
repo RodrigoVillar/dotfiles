@@ -40,6 +40,7 @@
     pkgs.fd
     pkgs.ripgrep
     pkgs.carapace
+    pkgs.go-task
   ];
 
   home.file = {

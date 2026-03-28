@@ -1,0 +1,12 @@
+version: "3"
+
+tasks:
+  default:
+    desc: Show available tasks
+    cmds:
+      - task --list
+
+  switch:
+    desc: Apply Home Manager configuration
+    cmds:
+      - home-manager switch --flake ./home-manager#$USER
