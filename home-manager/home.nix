@@ -41,6 +41,8 @@
     pkgs.ripgrep
     pkgs.carapace
     pkgs.go-task
+    pkgs.lua
+    pkgs.luarocks
   ];
 
   home.file = {

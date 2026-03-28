@@ -32,4 +32,6 @@ require("lazy").setup({
 	install = { colorscheme = { "catppuccin" } },
 	-- automatically check for plugin updates
 	checker = { enabled = true },
+	-- Write lockfile to repo directly (Nix store is read-only)
+	lockfile = vim.fn.expand("~/dotfiles/nvim/lazy-lock.json"),
 })

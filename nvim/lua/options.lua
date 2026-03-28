@@ -18,8 +18,6 @@ vim.opt.inccommand = "split"
 vim.opt.ignorecase = true
 vim.opt.termguicolors = true
 
-vim.g.mapleader = " "
-
 -- Autocmd to stop garbage text from populating window when switching windows
 vim.api.nvim_create_autocmd({ "FocusLost", "FocusGained" }, {
 	callback = function()

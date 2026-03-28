@@ -14,11 +14,6 @@ return {
 				"golangci-lint",
 				"rustfmt",
 				"ruff",
-
-				-- Other tools
-				"rust-analyzer",
-				"gopls",
-				"ty",
 			},
 			auto_update = false,
 			run_on_start = true,
