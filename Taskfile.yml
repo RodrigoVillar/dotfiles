@@ -10,3 +10,8 @@ tasks:
     desc: Apply Home Manager configuration
     cmds:
       - home-manager switch --flake ./home-manager#$USER
+
+  check-duplicates:
+    desc: Check for packages duplicated between Homebrew and Home Manager
+    cmds:
+      - ./scripts/check-duplicates.sh

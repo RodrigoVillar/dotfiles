@@ -40,15 +40,19 @@
     pkgs.fd
     pkgs.ripgrep
     pkgs.carapace
+    pkgs.jujutsu
     pkgs.go-task
     pkgs.lua
     pkgs.luarocks
+    pkgs.glow
+    pkgs.direnv
   ];
 
   home.file = {
     ".config/nvim".source = ./../nvim;
     ".config/ghostty".source = ./../ghostty;
     ".config/lazygit".source = ./../lazygit;
+    ".config/jj/config.toml".source = ./../jj/config.toml;
     ".config/nix".source = ./../nix;
     ".config/starship.toml".source = ./../starship.toml;
   };
