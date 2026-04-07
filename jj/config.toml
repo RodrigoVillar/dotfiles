@@ -1,0 +1,19 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Rodrigo Villar"
+email = "rodrigo.villar@avalabs.org"
+
+[ui]
+editor = "vim"
+
+[aliases]
+tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+
+[signing]
+backend = "gpg"
+sign-all = false
+key = "F4BE1BD26C2DABB1"
+
+[signing.backends.gpg]
+program = "/opt/homebrew/bin/gpg"

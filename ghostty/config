@@ -1,3 +1,18 @@
 background-opacity = 0.8
 font-feature = -calt
-keybind = shift+enter=text:\x1b\r
+
+# Create new split to the right (for Neovim)
+keybind = cmd+d=new_split:right
+
+# Create new split below (for your shell)
+keybind = cmd+shift+t=new_split:down
+
+# Navigate between panes (vim-style)
+keybind = ctrl+shift+h=goto_split:left
+keybind = ctrl+shift+j=goto_split:bottom
+keybind = ctrl+shift+k=goto_split:top
+keybind = ctrl+shift+l=goto_split:right
+
+# Rename window
+keybind = ctrl+b=rename_window
+

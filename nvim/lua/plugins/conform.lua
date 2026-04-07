@@ -29,11 +29,11 @@ return {
 		default_format_opts = {
 			lsp_format = "fallback",
 		},
-		-- Set up format-on-save
-		format_on_save = {
-			lsp_fallback = true,
-			timeout_ms = 1000,
-		},
+		-- TODO: investigate format-on-save
+		-- format_on_save = {
+		-- 	lsp_fallback = true,
+		-- 	timeout_ms = 1000,
+		-- },
 		-- Customize formatters
 		formatters = {
 			shfmt = {
